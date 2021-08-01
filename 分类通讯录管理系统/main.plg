@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\86139\AppData\Local\Temp\RSP7A8E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\86139\Desktop\DUT\1-2程序设计基础A\C语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c"
+]
+Creating command line "cl.exe @C:\Users\86139\AppData\Local\Temp\RSP7A8E.tmp" 
+<h3>Output Window</h3>
+Compiling...
+main.c
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(235) : error C2275: 'FILE' : illegal use of this type as an expression
+        c:\program files\microsoft visual studio\vc98\include\stdio.h(156) : see declaration of 'FILE'
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(235) : error C2065: 'fp' : undeclared identifier
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(236) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct _iobuf *'
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(236) : warning C4047: '==' : 'int ' differs in levels of indirection from 'void *'
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(241) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(241) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(243) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(243) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(254) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(254) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(263) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(263) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(271) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(271) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(284) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(284) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(291) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(291) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(298) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(298) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(306) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(306) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(314) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(314) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(319) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(319) : warning C4024: 'fprintf' : different types for formal and actual parameter 1
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(320) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+c:\users\86139\desktop\dut\1-2程序设计基础a\c语言实训\分类通讯录管理系统\分类通讯录管理系统\main.c(320) : warning C4024: 'fclose' : different types for formal and actual parameter 1
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+main.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
